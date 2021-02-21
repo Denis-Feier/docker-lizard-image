@@ -10,4 +10,4 @@ RUN pip install lizard
 
 ENV lizard_arguments=""
 
-ENTRYPOINT lizard ${lizard_arguments} --csv /app/project > /app/dx-results-lizard/ceva.csv
+ENTRYPOINT lizard ${lizard_arguments} --csv /app/project > /app/dx-results-lizard/lizard_output.csv
