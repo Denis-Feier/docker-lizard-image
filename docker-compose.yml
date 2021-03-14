@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+
+  metrixpp:
+    image: dxworks/metrixpp:1.4
+    environment:
+      - PROJECT_ID=test
+    volumes:
+      - /Users/denisfeier/Desktop/metrix++/PCBE:/usr/analysis/sources
+      - ./results:/usr/analysis/result
+ 
